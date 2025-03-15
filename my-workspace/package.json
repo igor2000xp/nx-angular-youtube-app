@@ -4,8 +4,9 @@
   "license": "MIT",
   "scripts": {
     "start": "nx serve",
-    "build": "nx build",
-    "test": "nx test"
+    "test": "nx test",
+    "build": "nx build && echo 'Build complete'",
+    "lint": "nx eslint:lint"
   },
   "private": true,
   "dependencies": {
